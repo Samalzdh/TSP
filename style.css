@@ -1,0 +1,14 @@
+.backgroundsurf{
+    height: 500px;
+  background-image: url("surf.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+  
+  /* Медиа-запрос для уменьшения шрифта на узких экранах */
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 14px; /* Уменьшенный размер шрифта для маленьких экранов */
+    }
+     }
